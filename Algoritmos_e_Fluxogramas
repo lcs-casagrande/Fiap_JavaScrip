@@ -1,0 +1,11 @@
+import prompt from 'prompt-sync';
+let pergunte = prompt();
+
+console.log("Iae!");
+console.log('Qual seu nome?');
+let numero1 = pergunte();
+
+console.log();
+console.log('Seja bem-vindo!' + nome);
+
+
