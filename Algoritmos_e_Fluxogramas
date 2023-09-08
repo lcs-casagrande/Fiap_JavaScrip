@@ -3,9 +3,18 @@ let pergunte = prompt();
 
 console.log("Iae!");
 console.log('Qual seu nome?');
-let numero1 = pergunte();
+let nome = pergunte();
 
 console.log();
-console.log('Seja bem-vindo!' + nome);
+console.log('Seja bem-vindo ' + nome + '!');
+
+
+
+console.log ('Informe um número: ');
+let numero1 = Number(pergunte()) ;
+console.log('Informe outro numero');
+let numero2 = Number(pergunte()) 
+let soma = numero1 + numero2
+console.log('A soma é ' + soma);
 
 
