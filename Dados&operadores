@@ -1,3 +1,8 @@
+import prompt from 'prompt-sync';
+let pergunte = prompt();
+
+#Operadores numericos 
+
 let a = 9;
 
 #Raiz quadrada
@@ -15,3 +20,38 @@ let x = Math.ceil(a);
 
 console.log(x);
 console.log(y);
+
+#Operadores de texto
+
+#retirar espaços
+let frase = ' D e v  ';
+let x = frase.trim;
+console.log (x);
+
+#Incluir termo
+let y = frase.includes('a');
+console.log(y);
+
+#Localizar caracter na posição
+let z = frase.charAt(z)
+console.log(z)
+
+#substituir caracter
+let w = frase.replaceAll('a', '@');
+console.log(w)
+
+#
+let frase = 'Codar é vida';
+let p = frase.substring()
+
+#transforme o nome para padrão ABNT
+
+console.log('Informe o nome do autor:');
+let nome = pergunte ();
+
+let primeiraletra = nome.charAt(0)
+
+let posEspaco = mome.indexOf(' ');
+let ultimoNome = nome.substring(posEspaco+1, nome.length);
+let abnt = ultimoNome.toUpperCase() + ', ' +primeiraLetra;
+console.log(abnt)
