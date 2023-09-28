@@ -1,0 +1,17 @@
+let a = 9;
+
+#Raiz quadrada
+let x = Math.sqrt(a,3);
+
+#Potência
+let y = Math.pow(a,b);
+
+#arredonda para baixo;
+let x = Math.floor(a);
+
+#arredonda para sima
+let x = Math.ceil(a);
+
+
+console.log(x);
+console.log(y);
