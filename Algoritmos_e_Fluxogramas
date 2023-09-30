@@ -13,8 +13,8 @@ console.log('Seja bem-vindo ' + nome + '!');
 console.log ('Informe um número: ');
 let numero1 = Number(pergunte()) ;
 console.log('Informe outro numero');
-let numero2 = Number(pergunte()) 
-let soma = numero1 + numero2
+let numero2 = Number(pergunte()) ;
+let soma = numero1 + numero2;
 console.log('A soma é ' + soma);
 
 
