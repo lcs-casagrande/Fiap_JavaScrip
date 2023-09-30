@@ -33,25 +33,27 @@ let y = frase.includes('a');
 console.log(y);
 
 #Localizar caracter na posição
-let z = frase.charAt(z)
-console.log(z)
+let z = frase.charAt(z);
+console.log(z);
 
 #substituir caracter
 let w = frase.replaceAll('a', '@');
-console.log(w)
+console.log(w);
 
 #
 let frase = 'Codar é vida';
-let p = frase.substring()
+let p = frase.substring();
 
 #transforme o nome para padrão ABNT
 
 console.log('Informe o nome do autor:');
 let nome = pergunte ();
 
-let primeiraletra = nome.charAt(0)
+let primeiraletra = nome.charAt(0);
 
 let posEspaco = mome.indexOf(' ');
 let ultimoNome = nome.substring(posEspaco+1, nome.length);
 let abnt = ultimoNome.toUpperCase() + ', ' +primeiraLetra;
-console.log(abnt)
+console.log(abnt);
+
+
