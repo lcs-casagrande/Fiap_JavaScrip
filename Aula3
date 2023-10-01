@@ -1,0 +1,47 @@
+import prompt from 'prompt-sync';
+let pergunte = prompt();
+
+let a = 10;
+let b = 10;
+
+let x = a == b;
+
+console.log(x);
+
+let c = 'oi';
+let d = 'oI';
+
+let y = c !=d;
+console.log(y);
+
+let e = 9;
+let f = Math.sqrt(e) == 3;
+let g = Math.abs(e*-1) > Math.pow(e/3, 3-1);
+
+console.log(f);
+console.log(g);
+
+let h = 'javascript';
+let i = 6;
+let j = h.substring(i/2 +1, h.length);
+let k = j == 'script';
+
+console.log(k)
+
+console.log('PROGRAMA DA FEBRE')
+console.log('Informe o vaor do termometro:');
+let temp = Number(pergunte());
+let febre = temp >= 37;
+console.log('esta com febre? ' + febre)
+
+
+console.log('PROGRAMA DA MÉDIA')
+console.log('Informe nota 1:');
+let n1 = Number(pergunte());
+console.log('Informe nota 2:');
+let n2 = Number(pergunte());
+console.log('Informe nota 3:');
+let n3 = Number(pergunte());
+let media = (n1 +n2 +n3) / 3;
+let passou = media >= 6;
+console.log('Passou? ' + passou)
