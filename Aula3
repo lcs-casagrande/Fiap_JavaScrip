@@ -45,3 +45,12 @@ let n3 = Number(pergunte());
 let media = (n1 +n2 +n3) / 3;
 let passou = media >= 6;
 console.log('Passou? ' + passou)
+
+let a= 10;
+let = 5;
+
+let x = a > 5 && b< 10;
+
+console.log(x):
+
+
