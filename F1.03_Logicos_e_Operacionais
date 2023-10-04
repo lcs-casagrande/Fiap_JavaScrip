@@ -53,4 +53,22 @@ let x = a > 5 && b< 10;
 
 console.log(x):
 
+let a2 = 10
+let b2 = 5 ;
+let x2 = a2+2 > b2-1 || a2+b2 == b2-a2+5
+
+let a3 = 9
+let b3 = 6 
+let c3 = 'coding' ;
+let x3 = b3 == c3.length & Math.sqrt(a3) == b3/2
+
+Console.log('Programa verificador de nota');
+
+Console.log('Informe a nota');
+let nota = Number(pergunte());
+
+let valida = nota >=0 && nota <= 10;
+console.log('Nota válida? ' + valida);
+
+
 
