@@ -1,1 +1,52 @@
+import prompt from 'prompt-sync';
+let pergunte = prompt();
+let media = 2;
+
+if (media > 5){
+    console.log('Passou!');
+}
+
+else if (media >3 ) {
+    console.log('DP')
+}
+else {
+    console.log('Reprovou')
+}
+let a = 5
+let x;
+
+if(a>5) {
+    x = a +2;
+}
+else{
+    x = a *3;
+}
+
+console.log(x)
+
+let a = 3
+if (a>5) {
+    console.log('A');
+}
+else if (a >3) {
+    console.log('B');
+}
+else {
+    console.log('C');
+}
+
+import prompt from 'prompt-sync';
+let pergunte = prompt();
+
+let a = 6;
+if (a >5) {
+    console.log('A');
+}
+if (a >3) {
+    console.log('B');
+}
+else {
+    console.log('C')
+}
+
 
