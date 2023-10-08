@@ -68,6 +68,17 @@ Console.log('Informe a nota');
 let nota = Number(pergunte());
 
 let valida = nota >=0 && nota <= 10;
+
+
+console.log('PROFRAMA VERIFICADOR COR PRIMARIA');
+
+console.log('Informe a Cor')
+let cor = pergunte();
+
+let primaria = cor =='amarelo' || cor =='azul' || cor == 'vermelho';
+
+console.log('É cor primaria ?' + primaria);
+
 console.log('Nota válida? ' + valida);
 
 
