@@ -49,4 +49,26 @@ else {
     console.log('C')
 }
 
+let classificacao = B
+switch (classificacao ) {
+
+case 'A+':
+case 'A':
+Case 'B+':
+    console.log('Ôtimo');
+    break;
+
+case 'B':
+    console.log('Bom');
+    break;
+
+case 'C':
+    console.log('Regular');
+    break;
+
+default:
+    console.log('Ruim');
+    break
+
+
 
