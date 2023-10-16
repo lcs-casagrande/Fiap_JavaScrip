@@ -1,0 +1,56 @@
+let contador = 1;
+
+while (contador <= 500) {
+  console.log(contador);
+
+contador ++;
+}
+
+let contador2 = 10;
+
+while (contador2 >=0 0) {
+  console.log(contador);
+
+  contador --;
+}
+
+let contador3 = 10;
+
+while (contador2 >=0 0) {
+  console.log(contador);
+
+  contador -=2;
+}
+
+let msg = 'Codar';
+let codar = 0;
+
+while (contador3 <=4) {
+  let letra = msg.chartAt(contador);
+  console.log(letra);
+  contador ++;
+}
+
+import prompt from 'prompt-sync';
+let pergunte = prompt()
+
+console.log('PROGRAMA DA TABUADA')
+console.log('Informe um numero')
+let numero = Number(pergunte())
+let cont = 0
+while (cont <=10) {
+  let valor = cont * numero;
+  console.log(numero+ 'x' + cont +'=' +valor);
+cont ++;
+}
+
+console.log('PROGRAMA DO FATORIAL')
+console.log('Informe um numero')
+let numero = Number(pergunte())
+let  fat = 1
+while (cont >1) {
+  fat = cont * fat;
+  cont --;
+}
+console.log('O fatorial é ' + fat);
+
