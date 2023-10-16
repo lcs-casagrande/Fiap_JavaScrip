@@ -1,0 +1,40 @@
+[
+    {
+        "id": "2fcbcac5eef1afcb",
+        "type": "change",
+        "z": "6f24e7349f0cce10",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Hello",
+                "fromt": "str",
+                "to": "Hi",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Word!",
+                "fromt": "str",
+                "to": "Earth!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 280,
+        "wires": [
+            [
+                "8d1a250e96bfc1ec"
+            ]
+        ]
+    }
+]
