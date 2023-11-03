@@ -10,7 +10,7 @@ else if (media >3 ) {
     console.log('DP')
 }
 else {
-    console.log('Reprovou')
+    console.log('Reprovou');
 }
 let a = 5
 let x;
@@ -22,9 +22,9 @@ else{
     x = a *3;
 }
 
-console.log(x)
+console.log(x);
 
-let a = 3
+let a = 3;
 if (a>5) {
     console.log('A');
 }
@@ -46,29 +46,29 @@ if (a >3) {
     console.log('B');
 }
 else {
-    console.log('C')
+    console.log('C');
 }
 
-let classificacao = B
+let classificacao = B ;
 switch (classificacao ) {
 
-case 'A+':
-case 'A':
-Case 'B+':
+case 'A+';
+case 'A';
+Case 'B+';
     console.log('Ôtimo');
     break;
 
-case 'B':
+case 'B';
     console.log('Bom');
     break;
 
-case 'C':
+case 'C';
     console.log('Regular');
     break;
 
-default:
+default;
     console.log('Ruim');
-    break
+    break;
 
 
 
