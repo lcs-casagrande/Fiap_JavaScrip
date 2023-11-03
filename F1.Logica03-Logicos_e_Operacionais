@@ -26,16 +26,16 @@ let i = 6;
 let j = h.substring(i/2 +1, h.length);
 let k = j == 'script';
 
-console.log(k)
+console.log(k);
 
-console.log('PROGRAMA DA FEBRE')
+console.log('PROGRAMA DA FEBRE');
 console.log('Informe o vaor do termometro:');
 let temp = Number(pergunte());
 let febre = temp >= 37;
-console.log('esta com febre? ' + febre)
+console.log('esta com febre? ' + febre);
 
 
-console.log('PROGRAMA DA MÉDIA')
+console.log('PROGRAMA DA MÉDIA');
 console.log('Informe nota 1:');
 let n1 = Number(pergunte());
 console.log('Informe nota 2:');
@@ -44,23 +44,23 @@ console.log('Informe nota 3:');
 let n3 = Number(pergunte());
 let media = (n1 +n2 +n3) / 3;
 let passou = media >= 6;
-console.log('Passou? ' + passou)
+console.log('Passou? ' + passou);
 
 let a= 10;
 let = 5;
 
 let x = a > 5 && b< 10;
 
-console.log(x):
+console.log(x);
 
-let a2 = 10
+let a2 = 10 ;
 let b2 = 5 ;
-let x2 = a2+2 > b2-1 || a2+b2 == b2-a2+5
+let x2 = a2+2 > b2-1 || a2+b2 == b2-a2+5 ;
 
-let a3 = 9
-let b3 = 6 
+let a3 = 9 ;
+let b3 = 6 ;
 let c3 = 'coding' ;
-let x3 = b3 == c3.length & Math.sqrt(a3) == b3/2
+let x3 = b3 == c3.length & Math.sqrt(a3) == b3/2 ;
 
 Console.log('Programa verificador de nota');
 
@@ -72,7 +72,7 @@ let valida = nota >=0 && nota <= 10;
 
 console.log('PROFRAMA VERIFICADOR COR PRIMARIA');
 
-console.log('Informe a Cor')
+console.log('Informe a Cor');
 let cor = pergunte();
 
 let primaria = cor =='amarelo' || cor =='azul' || cor == 'vermelho';
