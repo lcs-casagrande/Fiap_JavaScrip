@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio</title>
+</head>
+<body>
+    <header>
+        <h1>Lucas Casagrande
+        </h1>
+        <nav>
+            <ul> 
+                <li><a href='#Sobre'> Sobre </a></li>
+                <li><a href='#Habilidades'> Habilidade</a></li>
+                <li><a href='#projetosa'> Projetos </a></li>
+                <li><a href='#contato'> Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div>
+            <h2>Lucas Casagrande </h2>
+            <p> Desenvolver Back-end / Engenheiro de dados / Python / SQL</p>
+        </div>
+        <img src=Imagens/perfil.jpg 
+            alt="Foto do rosto"/>
+    </section>
+    <section>
+        <h2>Sobre mim</h2>
+        <p2><strong>//github.com/lcs-casagrande</strong>
+
+            Meu nome é <B>Lucas Casagrande</B>. Sou de São Paulo, tenho 25 anos.
+            Estudante de Pós graduação na FIAP. <u>Conhecimento em SQL e Python</u>.
+            Formado em Engenharia Mecânica.
+            Participei de 2 grandes projetos na área da indústria. 
+            Lançamento de novos desing de fechaduras e alteração de chave de alumínio para aço.
+            Aonde consegui <i>experiência em gestão de projetos</i>, desenvolvimento de fluxo de processos, estruturas. 
+            Me tornei um bom executor de tarefas, nas quais faz um projeto andar, mantendo foco para o que realmente importa.
+            Sempre gostei e estive envolvido com a área de tecnologia. Recentemente foquei na área de tecnologia.
+            Tenho diversos projetos publicados no meu GitHub. 
+            Estou disponível a novos projetos para prestar meus serviços e crescermos juntos.
+        </p2>
+    </section>
+    <selection>
+        <h2>Habilidades</h2>
+        <ul>    
+            <li>
+                <img src="Imagens/Python.png" alt="Logo da tecnologia Python"/>
+                <h3>Python</h3> 
+            </li>
+            <li> 
+                <img src="Imagens/sql.jfif" alt="Lodo tecnolofia Sql"/>
+                <h3> SQL</h3>
+
+            </li>
+        </ul>
+    </selection>
+</body>
+</html>
