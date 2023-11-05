@@ -1,0 +1,23 @@
+<table width='100%'cellpadding='10' frame="box">
+  <caption> Boletim Lucas</caption>
+   <tr bgcolor='lightblue'>
+     <th>Nome da diciplica</th>
+     <th>Nota</th>
+     <th>Frequeência</th>
+  </tr>
+  <tr>
+    <td> Artes</td>
+    <td>9.0</td>
+    <td>90%</td>
+   </tr>
+    <tr>
+    <td>Matematica</td>
+    <td>10</td>
+    <td> 75%</td>
+    </tr>
+    <tfoot>
+      <tr>
+      <td colspane='4' >Situação do aluno: Aprovado</td>
+      </tr>
+    </tfood>
+</table>
